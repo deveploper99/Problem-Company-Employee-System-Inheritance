@@ -11,7 +11,14 @@ public class Main {
         System.out.println("Employee Name: "+fulltimeEmployee.getName());
         System.out.println("Employee base Salary: "+fulltimeEmployee.getSalary());
         System.out.println("Employee Tax: "+fulltimeEmployee.employeCatagoris());
-        System.out.println("Employee Employe Final Salary: "+fulltimeEmployee.employeCatagoris());
+        System.out.println("Employee Final Salary: "+fulltimeEmployee.finalSalary());
+
+
+        Employee partTimeEmployee = new PartTime("Siam Ahmed",50000);
+        System.out.println("P Employee name: "+partTimeEmployee.getName());
+        System.out.println("P Employee Base Salary : "+partTimeEmployee.getSalary());
+        System.out.println("P Employee Tax: "+partTimeEmployee.employeCatagoris());
+        System.out.println("P Employee final Salary: "+partTimeEmployee.finalSalary());
     }
     }
 

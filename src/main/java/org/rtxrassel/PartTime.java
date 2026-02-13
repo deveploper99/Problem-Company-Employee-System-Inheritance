@@ -9,12 +9,12 @@ public class PartTime extends Employee{
 
     @Override
     double employeCatagoris() {
-        return 0;
+        return baseSalary*0.20;
     }
 
     @Override
     double finalSalary() {
-        return 0;
+        return baseSalary-employeCatagoris();
     }
 
 
